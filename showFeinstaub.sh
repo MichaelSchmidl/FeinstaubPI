@@ -1,3 +1,5 @@
+printf "press Ctrl-C to terminate within the next 20 seconds..."
+sleep 20
 ./getFeinstaub.sh &
 while :
 do
